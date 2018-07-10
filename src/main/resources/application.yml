@@ -1,0 +1,8 @@
+# Spring Basic Configuration
+spring:
+  application:
+    name: film-service
+
+# Tomcat Configuration
+server:
+  port: 8081
