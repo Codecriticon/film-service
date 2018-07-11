@@ -1,0 +1,21 @@
+spring:
+  # Spring Basic Configuration
+  application:
+    name: film-service
+
+  # Spring Boot Admin Configuration
+  boot:
+    admin:
+      client:
+        url: http://localhost:8000/admin
+
+
+# Tomcat Configuration
+server:
+  port: 8081
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
